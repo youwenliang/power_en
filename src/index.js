@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import $ from 'jquery';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-unregister();
+registerServiceWorker();
 
 
 // When the user scrolls down 20px from the top of the document, show the button
